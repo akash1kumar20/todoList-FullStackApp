@@ -2,6 +2,7 @@ import mongoose, { Schema } from "mongoose";
 const toDoSchema = new Schema(
   {
     task: String,
+    completed: Boolean,
     //We're defineing what variable have what kind of the data.
   },
   {
